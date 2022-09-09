@@ -1,0 +1,184 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.4rem;
+  line-height: 1.5;
+  font-weight: 800;
+  padding-bottom: 1%;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
+  line-height: 1.5;
+}
+
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/* Navigation bar */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+/* download buttons */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+.button-dark{
+  background-color: rgb(55, 53, 60);
+}
+
+/* title image */
+.title-img{
+  width: 21%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 22%;
+}
+
+/* features section */
+#features{
+  padding: 9% 15%;
+  background-color: #fff;
+  position: relative;
+  text-align: center;
+}
+.features-icon{
+  color: #ef8172;
+  margin-bottom: 1.5rem;
+}
+.features-icon:hover{
+  color: #ff4c68;
+}
+
+.features-div{
+  padding: 2.5%;
+}
+.features-h3{
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+.features-p{
+  color: #8f8f8f;
+}
+
+/* testimonial section */
+#testimonials{
+  text-align: center;
+  background-color: #f77269;
+}
+
+.carousel-item{
+    padding: 7% 15% 5%;
+}
+
+.dog-img{
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+/* press section */
+#press{
+  text-align: center;
+  background-color: #f77269;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing section */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+#pricing h2{
+  color: #000;
+}
+.pricing-card{
+  padding: 3% 2%;
+}
+ul{
+  line-height: 2.1;
+}
+.signup-btn{
+  color: #ff5d5d;
+  font-weight: 500;
+  border-color: rgb(241, 118, 105);
+}
+.signup-btn:hover{
+  background-color: rgb(241, 118, 105);
+  border-color: rgb(241, 118, 105);
+}
+
+@media (max-width:991px) {
+#title{
+  text-align: center;
+}
+  .title-img{
+    width: 60%;
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* call to action section */
+#cta{
+  background-color:  #ff4c68;
+  text-align: center;
+  padding: 6% 15%;
+}
+
+#cta h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.8rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: #fff;
+}
+
+/* footer section */
+#footer{
+  text-align: center;
+  padding: 5%;
+}
+
+.footer-icon{
+  display: inline-block;
+  padding: 2% 1%;
+}
+
+#footer p{
+  font-size: 1rem;
+  color: rgb(222, 187, 200);
+}
